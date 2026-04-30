@@ -197,7 +197,7 @@ onMounted(() => {
 }
 
 .encabezado p {
-  color: #555;
+  color: #374151;
 }
 
 .tarjeta {
@@ -220,7 +220,8 @@ h2 {
 label {
   display: block;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #374151;
 }
 
 select,
