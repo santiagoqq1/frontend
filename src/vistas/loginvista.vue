@@ -39,10 +39,10 @@ const iniciarSesion = async () => {
 
       <form @submit.prevent="iniciarSesion">
         <label>Correo</label>
-        <input v-model="email" type="email" placeholder="santiago@correo.com" />
+        <input v-model="email" type="email" placeholder="Correo" />
 
         <label>Contraseña</label>
-        <input v-model="password" type="password" placeholder="santiago1234" />
+        <input v-model="password" type="password" placeholder="Contraseña" />
 
         <button type="submit" :disabled="cargando">
           {{ cargando ? 'Ingresando...' : 'Ingresar' }}
